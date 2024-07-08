@@ -2,7 +2,7 @@
     // Configuration
     var config = {
         customerId: null,
-        widgetUrl: 'https://yourservice.com/widget.js'
+        widgetUrl: 'https://vivek0raon.github.io/chatwidget/widget.js'
     };
 
     // Loader function
