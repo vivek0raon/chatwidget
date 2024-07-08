@@ -1,0 +1,30 @@
+#your-chat-widget {
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#your-chat-widget button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+#chat-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}

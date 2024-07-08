@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Widget Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Chat Widget Test Page</h1>
+    <p>The chat widget should appear in the bottom-right corner of this page.</p>
+
+    <script src="widget.js"></script>
+    <script>
+        // Initialize the widget after the page loads
+        window.onload = function() {
+            YourChatWidget.init('TEST_CUSTOMER_ID');
+        };
+    </script>
+</body>
+</html>
